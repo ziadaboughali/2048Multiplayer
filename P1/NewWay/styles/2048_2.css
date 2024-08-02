@@ -1,0 +1,32 @@
+.navBar {
+  width: 100%; /* Corrected: removed quotes */
+  height: 100%; /* Assuming you want the navbar to fill its container */
+  background: #D9D9D9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex; /* Additional flex properties may be required depending on layout */
+}
+
+.logo {
+  width: 107px;
+  height: 39px;
+  flex-shrink: 0;
+  padding: 0 9px; /* Corrected padding syntax */
+  border-radius: 20px;
+  /* 'top' and 'left' removed since they require 'position' to be set */
+  /* Consider setting 'margin' or 'align-self' for positioning within flex container */
+}
+
+.flex-parent-element {
+  display: flex;
+  width: 100%; /* Assuming you want the parent to take full width */
+  /* 'margin: 20px auto;' centers the element with a margin of 20px on the top and bottom */
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.flex-child-element {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+  /* Additional properties can be added as needed */
+}

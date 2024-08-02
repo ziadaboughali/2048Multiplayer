@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "CS490",
+			"path": "."
+		},
+		{
+			"name": "P1",
+			"path": "../../../../../../Desktop/P1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CS490"
+	}
+}

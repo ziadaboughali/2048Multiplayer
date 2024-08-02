@@ -1,0 +1,80 @@
+
+
+
+body{
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: #3C566C;
+
+}
+
+
+
+.CircularBackground {
+    position: absolute;
+    background: #D9D9D9;
+    border-radius: 20px; 
+    border: 0.50px rgba(177, 172, 159, 0.20) solid;
+    width: 53px;
+    height: 13px;
+    top: 2px;
+}
+
+
+.CircularBackground2 {
+    width: 68px; 
+    height: 17px; 
+    left: 43px;
+    top: 0px;
+    position: absolute;
+    background: linear-gradient(105deg, rgba(60, 86, 108, 0.70) 0%, rgba(60, 86, 108, 0.20) 100%); 
+    border-radius: 20px; 
+    border: 0.50px rgba(177, 172, 159, 0.20) solid
+}
+
+
+#gameInfo {
+    position: absolute;
+     /* width: 100%;  */
+    /* height: 100%; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#logoletter{
+
+    width: 79px; 
+    height: 29px; 
+    left: 57px; top: 
+    3px; position: absolute;
+     color: #D9DCD2; 
+     font-size: 28px; 
+     font-family: Inter; 
+     font-style: italic; 
+     font-weight: 900; 
+    word-wrap: break-word;
+
+}
+
+#scoreTitle {
+    /* width: 79px; 
+    height: 29px;  */
+    /* left: 57px; top:  */
+    /* position: absolute; */
+    color: #D9DCD2;
+     font-size: 24px; 
+     font-family: Inter; 
+     font-style: italic; 
+     font-weight: 900; 
+    /* word-wrap: break-word; */
+    border-bottom: 10px solid #D9DCD2;
+    border-radius: 50px;
+}
